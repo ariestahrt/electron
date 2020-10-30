@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script>
+        // Running in electron
+        try {
+            $ = jQuery = module.exports;
+            // If you want module.exports to be empty, uncomment:
+            // module.exports = {};
+        } catch(e) {}
+     </script></head>
+      <title>Hello Python from Electron!</title>
+    </head>
+    <body>
+      <h1>Hello Python!</h1>
+      <button id="btn-test">Test</button>
+    </body>
+    <script type="text/javascript" src="./render.js"></script>
+</html>
